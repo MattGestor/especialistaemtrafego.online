@@ -46,10 +46,13 @@ body {
   content: "";
 }
 
-#fotoslado {
-    display: inline-block;
-      text-align: center;
-
+.coluna{
+  float: left;
+  width: 33.33%;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 a {
