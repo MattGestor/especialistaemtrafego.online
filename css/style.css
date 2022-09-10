@@ -46,6 +46,10 @@ body {
   content: "";
 }
 
+#fotoslado {
+    display: inline-block;
+}
+
 a {
   color: #FF9000;
   -webkit-transition: 0.5s;
